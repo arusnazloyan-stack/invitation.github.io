@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="ru"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</p>
+<p class="p1">&lt;title&gt;Armen &amp; Arus — 10.04.2026&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1">:root{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--bg:#f7f5f2;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--text:#111;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>--muted:#666;</p>
+<p class="p1">}</p>
+<p class="p1">*{box-sizing:border-box}</p>
+<p class="p1">body{margin:0;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}</p>
+<p class="p1">section{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px}</p>
+<p class="p1">.wrap{max-width:900px;width:100%;text-align:center}</p>
+<p class="p1">h1,h2,h3{margin:0 0 16px}</p>
+<p class="p1">p{margin:0 0 12px;color:var(--muted);line-height:1.6}</p>
+<p class="p1">.small{font-size:14px;color:var(--muted)}</p>
+<p class="p1">/* Intro */</p>
+<p class="p1">#intro{background:#000;color:#fff}</p>
+<p class="p1">.marquee{white-space:nowrap;overflow:hidden}</p>
+<p class="p1">.marquee span{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>display:inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>padding-left:100%;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>animation:marquee 10s linear infinite;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>font-size:32px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>letter-spacing:0.2em;</p>
+<p class="p1">}</p>
+<p class="p1">@keyframes marquee{to{transform:translateX(-100%)}}</p>
+<p class="p1">/* Hero */</p>
+<p class="p1">.hero{background:#eee}</p>
+<p class="p1">.hero img{max-width:100%;height:auto;border-radius:8px;margin-bottom:24px}</p>
+<p class="p1">.names{font-size:36px;letter-spacing:0.1em}</p>
+<p class="p1">.date{font-size:18px;color:var(--muted)}</p>
+<p class="p1">/* Calendar */</p>
+<p class="p1">.calendar{display:inline-grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:16px}</p>
+<p class="p1">.cal-head{grid-column:span 7;margin-bottom:8px}</p>
+<p class="p1">.cal-day{padding:10px;border-radius:6px;background:#fff;color:#999}</p>
+<p class="p1">.highlight{background:#111;color:#fff}</p>
+<p class="p1">/* Timeline */</p>
+<p class="p1">.line{margin:10px 0}</p>
+<p class="p1">.addr{color:#333}</p>
+<p class="p1">/* Form */</p>
+<p class="p1">form{max-width:420px;margin:0 auto;text-align:left}</p>
+<p class="p1">label{display:block;margin:12px 0 4px}</p>
+<p class="p1">input,select,textarea{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>width:100%;padding:10px;border-radius:6px;border:1px solid #ddd</p>
+<p class="p1">}</p>
+<p class="p1">button{margin-top:16px;padding:12px 16px;border:0;border-radius:6px;background:#111;color:#fff;width:100%}</p>
+<p class="p1">.fade{opacity:0;transform:translateY(20px);transition:all .6s ease}</p>
+<p class="p1">.show{opacity:1;transform:none}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="intro"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap marquee"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;span&gt;вы приглашены на свадьбу&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="hero fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Вставь своё фото ниже --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="IMG_9720_SnapseedCopy.jpeg" alt="Armen &amp; Arus"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="names"&gt;Armen &amp; Arus&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="date"&gt;10 апреля 2026&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Апрель 2026&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="calendar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cal-head small"&gt;Пн Вт Ср Чт Пт Сб Вс&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;!-- упрощённая сетка --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cal-day"&gt;&lt;/div&gt;&lt;div class="cal-day"&gt;&lt;/div&gt;&lt;div class="cal-day"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cal-day"&gt;&lt;/div&gt;&lt;div class="cal-day"&gt;&lt;/div&gt;&lt;div class="cal-day"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cal-day highlight"&gt;10&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Дорогие родные и близкие,&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;С огромным волнением и радостью мы приглашаем вас разделить с нами этот особенный день — нашу свадьбу.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Это будет незабываемое событие, и мы очень хотим, чтобы вы стали его частью.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;13:30 — Венчание&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="addr"&gt;Армянская Апостольская Церковь&lt;br/&gt;Кафедральный собор Преображения Господня&lt;br/&gt;Олимпийский проспект, 9, Москва&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;16:00 — Сбор гостей&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="addr"&gt;Ресторан «Симфония Холл»&lt;br/&gt;Овражный тупик, 2, деревня Камкино, Домодедово&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;17:00 — Начало банкета&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;22:00 — Торт и начало безудержного веселья и танцев&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Самый сладкий момент дня, после которого начинается настоящий праздник.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section class="fade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Пожалуйста, подтвердите ваше присутствие&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="small"&gt;Если вы планируете быть с парой, укажите имя вашего сопровождающего.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Имя и фамилия&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" placeholder="Введите имя"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Вы будете присутствовать?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;Да&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;Нет&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Будете ли вы с парой?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;select id="pair"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;Нет&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;option&gt;Да&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div id="pairName" style="display:none"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label&gt;Имя сопровождающего&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="text"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Комментарий&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea rows="3"&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="button"&gt;Отправить&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">const observer=new IntersectionObserver(e=&gt;e.forEach(x=&gt;x.isIntersecting&amp;&amp;x.target.classList.add('show')));</p>
+<p class="p1">document.querySelectorAll('.fade').forEach(el=&gt;observer.observe(el));</p>
+<p class="p1">document.getElementById('pair').addEventListener('change',e=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById('pairName').style.display = e.target.value==='Да'?'block':'none';</p>
+<p class="p1">});</p>
+<p class="p1">setTimeout(()=&gt;window.scrollTo({top:window.innerHeight,behavior:'smooth'}),2500);</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
